@@ -1,0 +1,7 @@
+- id: linkspector
+  name: Linkspector
+  description: Uncover broken links in your content.
+  entry: linkspector
+  language: node
+  types: [asciidoc, markdown]
+  stages: [commit, push, manual]
